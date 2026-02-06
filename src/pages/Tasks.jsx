@@ -5,7 +5,7 @@ import AddTaskDialog from "../components/AddTaskDialog";
 import { Grid, Typography, Button } from "@mui/material";
 
 function Tasks() {
-  console.log("📋 Tasks page rendered");
+  console.log("📋 Tasks page rendered....mmm");
 
   const { tasks } = useContext(TaskContext);
   const [open, setOpen] = useState(false);
@@ -16,7 +16,7 @@ function Tasks() {
   };
 
   const handleClose = () => {
-    console.log("❌ Close dialog");
+    console.log("❌ Close dialoggggggg");
     setOpen(false);
   };
 
